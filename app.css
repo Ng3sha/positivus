@@ -17,7 +17,7 @@ header{
     max-width: 1440px;
     width: 100%;
     height: 700px;
-    margin: 40px auto;
+    margin: 20px auto;
     gap: 70px;
 }
 .nav-container{
@@ -60,6 +60,7 @@ button{
     padding: 15px 30px;
     border-radius: 14px;
     border-width: 1px;
+    background-color: #ffffff;
 }
 .hero-section{
     display: grid;
@@ -119,11 +120,14 @@ h1{
     opacity: 1;
     margin: 40px auto;
 }
+.brands img{
+        color: #191A23;
+}
 .subh{
     display: flex;
     max-width: 1200px;
     width: 100%;
-    margin: 60px auto;
+    margin: 100px auto;
     align-items: center;
     gap: 40px;
 }
@@ -246,7 +250,7 @@ h3{
     max-width: 1200px;
     width: 100%;
     height: 350px;
-    margin: 80px auto;
+    margin: 100px auto;
     background-color: #F3F3F3;
     border-radius: 45px;
     align-items: center;
@@ -280,6 +284,8 @@ h3{
     gap: 20px;
     height: 320px;
     padding: 30px;
+    margin-bottom: 100px;
+    
 }
 .case{
     display: flex;
@@ -303,4 +309,135 @@ h3{
     align-items: center;
     gap: 10px;
     color: #B9FF66;
+}
+.guild{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    gap: 40px;
+}
+.consult{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 280px;
+    border-radius: 45px;
+}
+.init{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    border-radius: 45px;
+    padding: 40px 60px;
+    justify-content: center;
+    box-shadow: 0 8px 0 #191A23;
+}
+.init-f{
+    display: flex;
+    justify-content: space-between;
+}
+.guild img{
+    width: 58px;
+    height: 58px;
+}
+.init span{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.num{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 60px;
+    line-height: 100%;
+}
+.hed{
+font-weight: 500;
+font-style: Medium;
+font-size: 30px;
+line-height: 100%;
+}
+.shadow span{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.shadow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    height: 150px;
+    border-radius: 45px;
+    padding: 40px 60px;
+    box-shadow: 0 8px 0 #191A23;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 40px;
+}
+.tcard{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    gap: 25px;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    width: 380px;
+    height: 330px;
+    box-shadow: 0 8px 0 #191A23;
+}
+.cardin{
+    display: flex;
+    gap: 25px;
+}
+
+h4{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.tcard p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.tcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.lkin{
+    width: 34px;
+    height: 34px;
+}
+.team-cta{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    margin: 40px auto;
+    margin-top: 40px;
+    position: absolute;
+    transform: translateX(1630px);
+}
+.team-btn{
+    padding: 20px 35px;
+    background-color: #191A23;
+    width: 270px;
+}
+.team-btn a{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
 }
